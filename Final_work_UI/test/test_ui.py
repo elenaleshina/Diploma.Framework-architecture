@@ -36,6 +36,7 @@ def test_bilet(driver):
     driver.find_element(By.ID,"suggest-item-film-3442").click()
     driver.find_element(By.CSS_SELECTOR,'[title="Буду смотреть"]').click()
     assert driver.find_element(By.CSS_SELECTOR,'.AuthLoginInputToggle-input')
+    
 
 
 
